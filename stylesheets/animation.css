@@ -1,0 +1,81 @@
+@keyframes ticker{
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+@keyframes highlight {
+    0% { filter: brightness(100%); }
+    50% { filter: brightness(190%); }
+    100% { filter: brightness(100%); }
+}
+
+@keyframes moveAndFadeCat {
+    0% { transform: translate(0, 0); opacity: 0; }
+    50% { opacity: 1; } 
+    100% { transform: translate(-20px, 80px); opacity: 0; } 
+}
+
+@keyframes moveAndFadeDog {
+    0% { transform: translate(0, 0); opacity: 0; }
+    50% { opacity: 1; } 
+    100% { transform: translate(60px, -70px); opacity: 0; } 
+}
+
+@keyframes floatCandle {
+    0% { transform: translateY(0); }  
+    50% { transform: translateY(-260px); } 
+    100% { transform: translateY(0); }
+}
+
+@keyframes textPulse {
+    0% { transform: scale(0.8) rotate(20deg); }  
+    50% { transform: scale(1) rotate(20deg); } 
+    100% { transform: scale(0.8) rotate(20deg); }  
+}
+
+@keyframes popcornFly {
+    0% { transform: translateY(0) translateX(0) scale(1); opacity: 0; } 
+    10% { opacity: 1; } 
+    30% { transform: translateY(-12vw) translateX(-10vw) scale(1.2); } 
+    50% { transform: translateY(-10vw) translateX(-25vw) scale(1.2); } 
+    70% { transform: translateY(15) translateX(-35vw) scale(1.2); opacity: 1; } 
+    90% { transform: translateY(30vw) translateX(-55vw) scale(1); opacity: 0; }
+    100% { transform: translateY(0) translateX(0) scale(1); opacity: 0; } 
+}
+
+@keyframes textPulse2 {
+    0% { transform: scale(1) rotate(-20deg); }  
+    50% { transform: scale(1.1) rotate(-20deg); } 
+    100% { transform: scale(1) rotate(-20deg); }  
+}
+
+@keyframes moveInCircleCat {
+    0% { transform: rotate(0deg) translate(50px) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    100% { transform: rotate(360deg) translate(50px) rotate(-360deg); opacity: 0; }
+}
+
+@keyframes moveInCircleDog {
+    0% { transform: rotate(0deg) translate(70px) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    100% { transform: rotate(-360deg) translate(70px) rotate(360deg); opacity: 0; }
+}
+
+@keyframes glow {
+    0%, 100% { text-shadow: 0px 0px 0px #ffffff; } 
+    50% { text-shadow: 0px 0px 15px #f7cc94; }
+    100% { text-shadow: 0px 0px 0px #ffffff; } 
+}
+
+@keyframes flicker-cycle {
+    0%, 100% { opacity: 1; } 
+    10% { opacity: 0.10; } 
+    20% { opacity: 1; } 
+    30% { opacity: 0.10; } 
+    40% { opacity: 1; } 
+    50% { opacity: 0.10; } 
+    60% { opacity: 1; } 
+    70% { opacity: 0.10; } 
+    80% { opacity: 0; } 
+    100% { opacity: 1; } 
+}

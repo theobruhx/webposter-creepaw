@@ -1,0 +1,306 @@
+body, html {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #F7DCB9;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: url(../img/cursor.svg), auto;
+}
+
+  body {
+    margin: 0 auto;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  button, button:hover {
+    cursor: url(../img/cursor.svg), auto;
+  }
+
+  h1 {
+    font-size: 20vw;
+    color: #481E14;
+    font-family: 'bofie';
+    margin-left: 17vw;
+    margin-top: 10vw;
+    animation: highlight 3s infinite alternate;
+  }
+
+  .cat_ghost {
+    width: 20vw; 
+    position: absolute;
+    left: 85vw; 
+    top: 2vw; 
+    animation: moveAndFadeCat 4s infinite ease-in-out alternate;
+}
+
+.dog_ghost {
+    width: 20vw; 
+    position: absolute;
+    left: 5vw;
+    animation: moveAndFadeDog 4s infinite ease-in-out alternate;
+}
+
+.running{
+    background: #DEAC80;
+    color: #481E14;
+    font-family: "bofie";
+    font-size: 4vw;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 18.5vw;
+    white-space: nowrap;
+    height: auto;
+    padding: 2vw 0;
+  }
+        
+.items{
+    display: flex;
+    width: max-content;
+    animation: ticker 10s linear infinite;
+    animation-direction: normal;
+}
+
+.items:hover{
+    animation-play-state: paused;}
+        
+.item{
+    margin-left: 3vw;
+}
+
+.pumpkin {
+    width: 60vw;
+    position: absolute;
+    left: 5vw;
+    top: 60vw; 
+    z-index: 1;
+}
+
+.candle1 {
+    left: 83vw;
+    top: 85vw;
+    position: absolute;
+    z-index: 3;
+    animation: floatCandle 6s infinite ease-in-out alternate;
+    animation-delay: 2s;
+}
+
+.candle2 {
+    left: 74vw;
+    top: 80vw;
+    position: absolute;
+    z-index: 2;
+    animation: floatCandle 8s infinite ease-in-out alternate;
+    animation-delay: 4s;
+}
+
+.candle3 {
+    left: 65vw;
+    top: 85vw;
+    position: absolute;
+    z-index: 2;
+    animation: floatCandle 7s infinite ease-in-out alternate;
+    animation-delay: 6s;
+}
+
+h2 {
+    font-size: 25vw;
+    color: #481E14;
+    font-family: 'bofie';
+    margin-left: 47vw;
+    margin-top: 10vw;
+    transform: rotate(20deg);
+    animation: textPulse 3s infinite ease-in-out;
+  }
+
+  h3 {
+    font-size: 25vw;
+    color: #481E14;
+    font-family: 'bofie';
+    margin-left: 12vw;
+    margin-top: 20vw;
+    transform: rotate(-20deg);
+    animation: textPulse2 3s infinite ease-in-out;
+  }
+
+  h4 {
+    font-size: 25vw;
+    color: #481E14;
+    font-family: 'bofie';
+    margin-left: 28vw;
+    transform: rotate(-20deg);
+    animation: textPulse2 3s infinite ease-in-out;
+    animation-delay: 1.5s;
+  }
+
+  .running2 {
+    background: #F7DCB9;
+    color: #481E14;
+    font-family: "bofie";
+    font-size: 4vw;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10vw;
+    white-space: nowrap;
+    height: auto;
+    padding: 2vw 0;
+  }
+        
+.items{
+    display: flex;
+    width: max-content;
+    animation: ticker 10s linear infinite;
+    animation-direction: normal;
+}
+
+.items:hover{
+    animation-play-state: paused;}
+        
+.item{
+    margin-left: 3vw;
+}
+
+.block_two { 
+    padding-bottom: 2vw;
+}
+
+.popcorn {
+    left: 65vw;
+    top: 126vw;
+    position: absolute;
+}
+
+.popcorn_heap {
+    left: 10vw;
+    top: 159vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.pop1 {
+    position: absolute;
+    z-index: 2;
+    left: 80vw;
+    top: 128vw; 
+    animation: popcornFly 5s infinite ease-in-out;
+    animation-delay: 0s;
+}
+
+.pop2 {
+    position: absolute;
+    z-index: 2;
+    left: 80vw;
+    top: 130vw; 
+    animation: popcornFly 6s infinite ease-in-out;
+    animation-delay: 1s;
+}
+
+.pop3 {
+    position: absolute;
+    z-index: 2;
+    left: 80vw;
+    top: 128vw; 
+    animation: popcornFly 5s infinite ease-in-out;
+    animation-delay: 3s;
+}
+
+.pop4 {
+    position: absolute;
+    z-index: 2;
+    left: 80vw;
+    top: 130vw; 
+    animation: popcornFly 6s infinite ease-in-out;
+    animation-delay: 4s;
+}
+
+.block_three {
+    background-color: #E1B287; 
+}
+
+.tv {
+    left: 65vw;
+    top: 186vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.projector {
+    left: 2vw;
+    top: 213vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.dog {
+    left: 7vw;
+    top: 187vw;
+    position: absolute;
+    z-index: 2;
+    animation: moveInCircleDog 4.7s infinite ease-in-out;
+}
+
+.cat {
+    left: 60vw;
+    top: 190vw;
+    position: absolute;
+    z-index: 2;
+    animation: moveInCircleCat 5.5s infinite ease-in-out;
+}
+
+h5 {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: 'bofie';
+    margin-left: 73vw;
+    margin-top: 17vw;
+    transform: rotate(-7deg);
+    z-index: 3;
+    position: absolute;
+    animation: glow 5.4s infinite ease-in-out;
+    animation-delay: 3.5s;
+  }
+
+  h6 {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: 'bofie';
+    margin-left: 76vw;
+    margin-top: 28vw;
+    transform: rotate(-1deg);
+    z-index: 3;
+    position: absolute;
+    animation: glow 5.4s infinite ease-in-out;
+    animation-delay: 3.5s;
+  }
+
+  h7 {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: 'bofie';
+    margin-left: 73vw;
+    margin-top: 36vw;
+    transform: rotate(4deg);
+    z-index: 3;
+    position: absolute;
+    animation: glow 5.4s infinite ease-in-out;
+    animation-delay: 3.5s;
+  }
+
+  .light {
+    left: 28vw;
+    top: 187vw;
+    position: absolute;
+    z-index: 4;  
+    transform: rotate(-1deg);
+    filter: blur(40px);
+    animation: flicker-cycle 6s infinite;
+}
+
+.block_four {
+    background-color: #E1B287; 
+    min-height: 100vh;
+}
