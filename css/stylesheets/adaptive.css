@@ -1,0 +1,41 @@
+/* 
+@media screen and (max-width: 1920px) {
+   h1 { font-size: 18vw; }
+   .running { font-size: 3.5vw; }
+   .pumpkin { width: 50vw; }
+}
+
+@media screen and (max-width: 1440px) {
+   h1 { font-size: 14vw; }
+   .running { font-size: 3vw; }
+   .pumpkin { width: 45vw; }
+   .dog_ghost, .cat_ghost { width: 15vw; }
+}
+
+@media screen and (max-width: 1024px) {
+   h1 { font-size: 12vw; }
+   .running { font-size: 2.7vw; }
+   .pumpkin { width: 40vw; }
+   .dog_ghost, .cat_ghost { width: 12vw; }
+   .candle1, .candle2, .candle3 { width: 8vw; }
+   section { width: 95%; }
+}
+
+
+@media screen and (max-width: 768px) {
+   h1 { font-size: 10vw; }
+   .running { font-size: 2.5vw; }
+   .pumpkin { width: 35vw; }
+   .dog_ghost, .cat_ghost { width: 10vw; }
+   .candle1, .candle2, .candle3 { width: 6vw; }
+   section { width: 98%; }
+}
+
+@media screen and (max-width: 414px) {
+   h1 { font-size: 8vw; }
+   .running { font-size: 2vw; }
+   .pumpkin { width: 30vw; }
+   .dog_ghost, .cat_ghost { width: 8vw; }
+   .candle1, .candle2, .candle3 { width: 5vw; }
+   section { width: 100%; padding: 5vw; }
+} */
